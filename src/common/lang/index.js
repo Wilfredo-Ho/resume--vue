@@ -16,7 +16,14 @@ export default {
         school: '武汉轻工大学',
         city: '天津市西青区'
     },
-    work: []
+    work: {
+      work1: {
+        name: '天津布尔科技有限公司',
+        loc: '天津市西青区',
+        career: '高新技术企业',
+        intro: '布尔科技成立于2014年，是国家高新技术企业；已通过ISO9001和IATF16949认证；秉承“ 良心、 品质、 创新、 高效” 的品牌理念， 不断地努力进取， 为客户提供更优质的产品、 更高效的服务。 '
+      }
+    }
   },
   en: {
     home: {
@@ -34,6 +41,13 @@ export default {
         school: 'Wuhan Polytechnic University',
         city: 'Xiqing District, Tianjin'
     },
-    work: []
+    work: {
+      work1: {
+        name: 'Tianjin Bool Technology Co., Ltd.',
+        loc: 'Xiqing District, Tianjin',
+        career: 'high-tech enterprise',
+        intro: 'Founded in 2014, Bool Technology is a national high-tech enterprise; it has passed ISO9001 and IATF16949 certification; adhering to the brand concept of “Conscience, Quality, Innovation and Efficiency”, we are constantly striving to provide customers with better products and more efficient service.'
+      }
+    }
   }
 }

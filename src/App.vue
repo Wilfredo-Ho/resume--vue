@@ -22,6 +22,13 @@ export default {
 </script>
 
 <style>
+*{
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
 html{
   font-size: 16px;
 }
@@ -31,7 +38,7 @@ html, body, #app{
 }
 .btn-lang {
   background: transparent;
-  position: absolute;
+  position: absolute !important;
   top: .5rem;
   right: 0;
 }
