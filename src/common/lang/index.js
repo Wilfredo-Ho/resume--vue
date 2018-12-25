@@ -12,7 +12,7 @@ export default {
         motto: '博学之，审问之，慎思之，明辨之，笃行之。',
         name: '何文杰',
         phone: '156-2491-0099',
-        email: 'jefferyho9310@outlook.com',
+        email: 'jefferyho1993@outlook.com',
         school: '武汉轻工大学',
         city: '天津市西青区'
     },
@@ -37,7 +37,7 @@ export default {
         motto: 'Life is apure flame, and we live by an invisible sun within us.',
         name: 'Jeffery Ho',
         phone: '156-2491-0099',
-        email: 'jefferyho9310@outlook.com',
+        email: 'jefferyho1993@outlook.com',
         school: 'Wuhan Polytechnic University',
         city: 'Xiqing District, Tianjin'
     },

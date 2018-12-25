@@ -1,34 +1,21 @@
 <template>
     <div class="work-wpt">
-        <div class="card-item-wpt">
-            <div class="pic">
-
-            </div>
-            <div class="info">
-                <p class="name"></p>
-                <p class="time"></p>
-                <p class="job"></p>
-                <div class="detail">
-                    <h4 class="title"></h4>
-                    <ul class="detail-list">
-                        <li class="detail-list-item" v-for="(item, index) in data" :key="index">
-                            <mu-flex class="list-item-top" justify-content="between" align-items="end">
-                                <span class="career">{{$t(item.career)}}</span>
-                                <span class="time">{{ item.time }}</span>
-                            </mu-flex>
-                            <div class="list-item-content">
-                                {{$t(item.intro)}}
-                            </div>
-                            <mu-divider></mu-divider>
-                            <mu-flex class="list-item-bottom" justify-content="between" align-items="center">
-                                <a :href="item.url" class='link'><img :src="item.logo" alt="logo"></a>
-                                <span class="loc">{{ $t(item.loc) }}</span>
-                            </mu-flex>
-                        </li>
-                    </ul>
+        <ul class="detail-list">
+            <li class="detail-list-item" v-for="(item, index) in data" :key="index">
+                <mu-flex class="list-item-top" justify-content="between" align-items="end">
+                    <span class="career">{{$t(item.career)}}</span>
+                    <span class="time">{{ item.time }}</span>
+                </mu-flex>
+                <div class="list-item-content">
+                    {{$t(item.intro)}}
                 </div>
-            </div>
-        </div>
+                <mu-divider></mu-divider>
+                <mu-flex class="list-item-bottom" justify-content="between" align-items="center">
+                    <a :href="item.url" class='link'><img :src="item.logo" alt="logo"></a>
+                    <span class="loc">{{ $t(item.loc) }}</span>
+                </mu-flex>
+            </li>
+        </ul>
     </div>
 </template>
 
@@ -74,6 +61,7 @@ export default {
 }
 .detail-list {
     padding: 2.5rem 1.5rem;
+    background: #eee;
 }
 .detail-list-item{
     padding: 0.625rem;
@@ -86,7 +74,7 @@ export default {
     margin-bottom: 0;
 }
 .list-item-top .career{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 .list-item-top .time{

@@ -25,7 +25,7 @@
   height: 16rem;
 }
 .demo-color-btn {
-  width: 13rem;
+  width: 13.5rem;
 }
 .self-wrapper {
   margin-bottom: 1rem;
